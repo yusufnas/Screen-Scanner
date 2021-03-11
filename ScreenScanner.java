@@ -31,8 +31,8 @@ public class ScreenScanner extends PApplet {
     public void draw() {
         b += 0.5;
         background(b);
-        stroke(255, 0, 0);
-        line(width / 2, 0, width / 2, height);
+        //stroke(255, 0, 0);
+        //line(width / 2, 0, width / 2, height);
         stroke(0, 255, 5);
         line(a, 0, a, height);
 
